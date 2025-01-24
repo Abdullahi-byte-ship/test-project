@@ -1,0 +1,84 @@
+.footers
+{
+ background-color: #11122b;
+ color: #cbcbcb;
+ height: 300px;
+   font-family: "Roboto Condensed", serif;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-top: 5px solid whitesmoke	;
+margin-top: -4px;
+
+}
+.footers > .footer-img img
+{
+ height: 100px;
+ width: 216px;
+ margin-bottom: 15px;
+ opacity: 0.8;
+ margin-top: -5px;
+}
+.footers > .footer-contact span
+{
+ margin-left: 10px;
+ margin-right: 10px;
+ letter-spacing: 2px;
+ font-size: 1em;
+}
+.footers > .footer-contact > .footer-time 
+{
+ font-size: 0.9em;
+text-transform: uppercase;
+color: #cea135;
+}
+.footers > .footer-contact > .tell
+{
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #cea135;
+}
+.footers > .social
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+.footers > .social a
+{
+color: #cbcbcb;
+font-size: 1.1em;
+transition: 0.5;
+}
+.footers > .social a:hover
+{
+	color: #cea135;
+}
+.footers > .link
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.footers > .copy
+{
+	font-size: 0.8em;
+    color: #858585;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+

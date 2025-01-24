@@ -1,0 +1,98 @@
+.heads 
+{
+ background-image: url(../image/logo.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ height: 400px;
+ padding: 100px;
+
+}
+.heads > .header
+{
+ width: 420px;
+ background-color: #11122b;
+ color: #cea135;
+ border-radius: 10px;
+ padding: 1px 10px;
+  font-family: "Ubuntu Condensed", serif;
+  font-size: 1em;
+}
+.heads > .bottom
+{
+ background-color: #cea135;
+ color : #11122b;
+ width: 300px;
+ border-radius: 10px;
+ font-size: 0.9em;
+ padding: 1px 5px;
+ margin-top: 10px;
+    font-family: "Roboto Condensed", serif;
+}
+
+/*features */
+.features
+{
+ background-image: url(../image/fries-multiply-bg.jpg);
+ background-color:#cea135;
+ height: 300px;
+border-top: 5px solid #11122b;
+border-bottom: 5px solid blue;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: inset 4px -29px 79px -8px;
+}
+.features > .columns
+{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.features > .columns > .column
+{
+ margin: 40px;
+ padding: 42px;
+ border-bottom: 5px transparent;
+ transition: 1s;
+text-align: center;
+border-radius: 10px;
+}
+.features >  .columns > .column:hover
+{
+	border-bottom: 3px solid#11122b;
+}
+.features > .columns > .column :nth-child(1)
+{
+	font-size: 2em;
+}
+.features > .columns > .column :nth-child(2)
+{ 
+ font-weight: 800;
+ font-size: 1.5em;
+ transition: 1s;
+ color: #cbcbcb;
+ height: 50px;
+}
+.features > .columns > .column :nth-child(2):hover
+{
+	letter-spacing: 1px;
+}
+.features > .columns > .column :nth-child(3)
+{
+	font-weight: 200;
+	font-size: 1em;
+	transition: 1s;
+	color: #11122b;
+	font-family: "Ubuntu Condensed", serif;
+} 
+.features > .columns > .column :nth-child(3):hover
+{
+	letter-spacing: 1px;
+}
+.features > .columns > .column 
+{
+	width: 250px;
+}

@@ -1,0 +1,166 @@
+.main
+{  
+  height: 180px;
+  background-color: #11122b;
+  color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 40px;
+}
+body
+{
+	margin: 0px;
+}
+.main > .left > .contact
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5px;
+}
+.main > .left
+{
+	display: flex;
+	align-items: center;
+}	
+.main > .left > .icon
+{
+	margin-right: 10px;
+}
+.main > .left .icon i
+{
+	font-size: 2em;
+}
+.main > .left > .contact > .tell
+{
+   font-family: "Ubuntu Condensed", serif;
+   font-size: 1em;
+   font-weight: 200;
+   color: #cbcbcb;
+}
+.main > .left > .contact > .time
+{
+ font-weight: 200;
+ color: #858585;
+ font-size: 0.8em;
+ font-family: "Ubuntu Condensed", serif;
+}
+/*starts center*/
+.main > .center > .image img
+{
+ width: 216px;
+ height: 100px;
+}
+.main > .center
+{ 
+ display: grid;
+ grid-template-columns: 1fr;
+ grid: 42px;
+ width: 500px;
+}
+.main > .center > .image
+{
+	display: flex;
+	justify-content: center;
+}
+
+.link 
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 5px;
+}
+.link a
+{
+ transition: 0.5s;
+font-family: "Ubuntu Condensed", serif;
+color: #cbcbcb;
+text-decoration: none;
+}
+.link a:hover
+{
+	color: #cea135;
+	letter-spacing: 2px;
+}
+.link > .link-wrapper
+{
+	width: 60px;
+}
+/*right*/
+.main > .right
+{
+	display: flex;
+	align-items: center;
+}
+.main > .right > .adress a 
+{
+font-family: "Ubuntu Condensed", serif;
+color: #858585;
+transition: 0.5s;
+text-decoration: none;
+font-size: 1.1em;
+}
+.main > .right > .adress a:hover
+{
+	color: #cea135;
+}
+.main > .right > .icon1
+{
+	font-size: 2em;
+	margin-left: 5px;
+}
+.main  > .right > .icon1 a 
+{
+	color: #848484;
+	text-decoration: none;
+	transition: 0.5s;
+	font-family: "Ubuntu Condensed", serif;
+}
+.main > .right > .icon1 a:hover
+{
+	color: #cea135;
+}
+
+
+.heads > .click 
+{
+	background-color: #11122b;
+	color: #858585;
+	width: 140px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin-top: 15px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.heads > .click a
+{
+ transition: 0.5s;
+font-family: "Ubuntu Condensed", serif;
+color: #cbcbcb;
+text-decoration: none;
+	
+}
+.heads > .click a:hover
+{
+	color: #cea135;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
